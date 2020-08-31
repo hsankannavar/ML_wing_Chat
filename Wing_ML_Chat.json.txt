@@ -1,0 +1,63 @@
+{"intents": [
+		{"tag": "structure",
+		 "patterns": ["structure", "parts", "components", "wingbox"],
+		 "responses": ["Top skin, Bottom skin, FS, RS, LE, Wing-tip"]
+		},
+		{"tag": "how_are_you",
+		 "patterns": ["How are you?", "How are things?", "Are you well", "Is everything good with you?"],
+		 "responses": ["I am fine. Thanks for asking.", "So far, so good", "It has been a great day so far.", "All good with me in the computer world"]
+		},
+		{"tag": "goodbye",
+		 "patterns": ["Bye", "See you later", "Goodbye", "quit"],
+		 "responses": ["See you later, happy to serve you", "Have a nice day", "Bye! Come back again soon."]
+		},
+		{"tag": "thanks",
+		 "patterns": ["Thanks", "Thank you", "That's helpful"],
+		 "responses": ["Happy to help!", "Any time!", "My pleasure"]
+		},
+		{"tag": "help",
+		 "patterns": ["Help", "I need help", "Whom do I contact if I need help", "Help needed", "How do I handle a support issue?", "Where do I get help if I get stuck?"],
+		 "responses": ["You can contact Sudeep if you need help", "Sudeep should be able to help you out"]
+		},
+		{"tag": "introduction",
+		 "patterns": ["Who created you?", "Who made you?", "Who was your creator?"],
+		 "responses": ["I was created by Sudeep DSouza from AxisCades."]
+		},
+		{"tag": "introduction",
+		 "patterns": ["Introduce yourself", "What is your name?", "What can you do?"],
+		 "responses": ["I am MLChat. I can provide you answers to your wing related Questions"]
+		},
+		{"tag": "damage",
+		 "patterns": ["damage", "damage type", "what is the damage", "what is the part affected with"],
+		 "responses": ["corrosion, dent, gouge,  scratch"]
+		},
+		{"tag": "loading",
+		 "patterns": ["loading", "loading types", "stress"],
+		 "responses": ["Top skin- compression, bottom skin - tension,  spar web- shear"]
+		},
+		{"tag": "materials",
+		 "patterns": ["material", "material type", "what are panels made off", "what are structure made off"],
+		 "responses": ["Top skin- 7150-T651, bottom skin - 2024-T351,  spar web- 2024-T42"]
+		},
+		{"tag": "top skin",
+		 "patterns": ["describe top skin", "tell about top panel", "top skin panel"],
+		 "responses": ["Top skin- 2 panels, str 11 buttstrap, made of 7150-7561, critcal for compression"]
+		},
+		{"tag": "bottom skin",
+		 "patterns": ["describe bottom skin", "tell about bottom panel", "bottom skin panel"],
+		 "responses": ["Bottom skin- 3 panels, str 11 and 8 buttstrap, made of 2024-T351, crtical for tension"]
+		},
+		{"tag": "Leading Edge",
+		 "patterns": ["leading edge", "tell about leading edge", "le"],
+		 "responses": ["LE Skin, Slat tracks, track cans, LE buttstrap"]
+		},
+		{"tag": "Trailing edge",
+		 "patterns": ["trailing edge", "tell about trailing edge", "te"],
+		 "responses": ["TE attachments, Riblets, seal plate, overwing panel, MLG attachments"]
+		},
+		{"tag": "wing tip",
+		 "patterns": ["What is wing tip", "tip", "fence"],
+		 "responses": ["wing tip and wing tip fence"]
+		}
+	]
+}
